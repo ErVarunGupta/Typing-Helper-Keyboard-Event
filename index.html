@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="inputBox">
+            <input type="text" class="input" placeholder="Type here...">
+        </div>
+        <div class="keyboard">
+<!-- 1st Row -->
+            <div class="firstrow">
+                <button id="esc"><h4>esc</h4></button>
+                <button id="f1">
+                    <p>f1</p>
+                    <i class="fa-solid fa-question"></i></button>
+                <button id="f2">
+                    <p>f2</p>
+                    <i class="fa-solid fa-asterisk"></i></button>
+                <button id="f3">
+                    <p>f3</p>
+                    <i class="fa-solid fa-star-of-life"></i></button>
+                <button id="f4">
+                    <p>f4</p>
+                    <i class="fa-solid fa-ticket"></i></button>
+                <button id="f5">
+                    <p>f5</p>
+                    <i class="fa-solid fa-globe"></i></button>
+                <button id="f6">
+                    <p>f6</p>
+                    <i class="fa-solid fa-backward-fast"></i></button>
+                <button id="f7">
+                    <p>f7</p>
+                    <i class="fa-solid fa-forward-step"></i></button>
+                <button id="f8">
+                    <p>f8</p>
+                    <i class="fa-solid fa-forward-fast"></i></button>
+                <button id="f9">
+                    <p>f9</p>
+                    <i class="fa-solid fa-volume-low"></i></button>
+                <button id="f10">
+                    <p>f10</p>
+                    <i class="fa-solid fa-volume-high"></i></button>
+                <button id="f11">
+                    <p>f11</p>
+                    <i class="fa-solid fa-volume-xmark"></i></button>
+                <button id="f12">
+                    <p>f12</p>
+                    <i class="fa-solid fa-tower-broadcast"></i></button>
+                <button id="insert"><h4>insert</h4></button>
+                <button id="prtSc"><h4>prt sc</h4></button>
+                <button id="delete"><h4>delete</h4></button>
+            </div>
+<!-- 2nd Row -->
+            <div class="secondrow">
+                <button id="tindle">
+                    <p>~</p>
+                    <h3>`</h3>
+                </button>
+                <button id="one">
+                    <p>!</p>
+                    <h3>1</h3>
+                </button>
+                <button id="two">
+                    <p>@</p>
+                    <h3>2</h3>
+                </button>
+                <button id="three">
+                    <p>#</p>
+                    <h3>3</h3>
+                </button>
+                <button id="four">
+                    <p>$</p>
+                    <h3>4</h3>
+                </button>
+                <button id="five">
+                    <p>%</p>
+                    <h3>5</h3>
+                </button>
+                <button id="six">
+                    <p>^</p>
+                    <h3>6</h3>
+                </button>
+                <button id="seven">
+                    <p>&</p>
+                    <h3>7</h3>
+                </button>
+                <button id="eight">
+                    <p>*</p>
+                    <h3>8</h3>
+                </button>
+                <button id="nine">
+                    <p>(</p>
+                    <h3>9</h3>
+                </button>
+                <button id="zero">
+                    <p>)</p>
+                    <h3>0</h3>
+                </button>
+                <button id="minus">
+                    <p>_</p>
+                    <h3>-</h3>
+                </button>
+                <button id="plus">
+                    <p>+</p>
+                    <h3>=</h3>
+                </button>
+                <button class="backspace" id="backspace"><i class="fa-solid fa-arrow-left"></i><span>backspace</span></button>
+                <button id="home"><h4>home</h4></button>
+            </div>
+ <!-- 3rd Row    -->
+            <div class="thirdrow">
+                <button class="tab" id="tab">
+                    <h4>tab</h4><span><i class="fa-solid fa-arrow-right-arrow-left"></i></span>
+                </button>
+                <button id="q">
+                    <h3>Q</h3>
+                </button>
+                <button id="w">
+                    <h3>W</h3>
+                </button>
+                <button id="e">
+                    <h3>E</h3>
+                </button>
+                <button id="r">
+                    <h3>R</h3>
+                </button>
+                <button id="t">
+                    <h3>T</h3>
+                </button>
+                <button id="y">
+                    <h3>Y</h3>
+                </button>
+                <button id="u">
+                    <h3>U</h3>
+                </button>
+                <button id="i">
+                    <h3>I</h3>
+                </button>
+                <button id="o">
+                    <h3>O</h3>
+                </button>
+                <button id="p">
+                    <h3>P</h3>
+                </button>
+                <button id="open-bracket">
+                    <p>{</p>
+                    <h3>[</h3>
+                </button>
+                <button id="closed-bracket">
+                    <p>}</p>
+                    <h3>]</h3>
+                </button>
+                <button class="backslash" id="backslash">
+                    <p>|</p>
+                    <h3>\</h3>
+                </button>
+                <button id="pg-up">
+                    <h4>pg up</h4>
+                </button>
+            </div>
+<!-- 4th Row     -->
+            <div class="fourthrow">
+                <button class="caps-lock" id="caps-lock">
+                    <div class="div-point"></div>
+                    <h4>caps lock</h4>
+                </button>
+                <button id="a">
+                    <h3>A</h3>
+                </button>
+                <button id="s">
+                    <h3>S</h3>
+                </button>
+                <button id="d">
+                    <h3>D</h3>
+                </button>
+                <button id="f">
+                    <h3>F</h3>
+                    <h4>_</h4>
+                </button>
+                <button id="g">
+                    <h3>G</h3>
+                </button>
+                <button id="h">
+                    <h3>H</h3>
+                </button>
+                <button id="j">
+                    <h3>J</h3>
+                    <h4>_</h4>
+                </button>
+                <button id="k">
+                    <h3>K</h3>
+                </button>
+                <button id="l">
+                    <h3>L</h3>
+                </button>
+                <button id="colone">
+                    <p style="font-weight: bold;">:</p>
+                    <h3>;</h3>
+                </button>
+                <button id="inverted-comma">
+                    <p>"</p>
+                    <h3>'</h3>
+                </button>
+                <button class="enter" id="enter">
+                    <i class="fa-solid fa-arrow-turn-down"></i>
+                    <h4>enter</h4>
+                </button>
+                <button id="pg-dn">
+                    <h4>pg dn</h4>
+                </button>
+            </div>
+ <!-- 5th Row    -->
+            <div class="fifthrow">
+                <button class="shift" id="shift">
+                    <h4>shift</h4>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </button>
+                <button id="z">
+                    <h3>Z</h3>
+                </button>
+                <button id="x">
+                    <h3>X</h3>
+                </button>
+                <button id="c">
+                    <h3>C</h3>
+                </button>
+                <button id="v">
+                    <h3>V</h3>
+                </button>
+                <button id="b">
+                    <h3>B</h3>
+                </button>
+                <button id="n">
+                    <h3>N</h3>
+                </button>
+                <button id="m">
+                    <h3>M</h3>
+                </button>
+                <button id="comma">
+                    <p><</p>
+                    <h3>,</h3>
+                </button>
+                <button id="dot">
+                    <p>></p>
+                    <h3>.</h3>
+                </button>
+                <button id="question">
+                    <p>?</p>
+                    <h3>/</h3>
+                </button>
+                <button class="pause" id="pause">
+                    <p>pause</p>
+                    <i class="fa-solid fa-arrow-up"></i>
+                    <h4>shift</h4>
+                </button>
+                <button id="end">
+                    <h4>end</h4>
+                </button>
+            </div>
+<!-- 6th Row      -->
+            <div class="sixthrow">
+                <button id="ctrl1">
+                    <h4>ctrl</h4>
+                </button>
+                <button id="function" style="color: #53f309;">
+                    <h4>fn</h4>
+                </button>
+                <button id="windows">
+                    <h2><i class="fa-brands fa-windows"></i></h2>
+                </button>
+                <button id="alt1">
+                    <h4>alt</h4>
+                </button>
+                <button class="spacebar" id="spacebar">
+                    <h4>spacebar</h4>
+                </button>
+                <button id="alt2">
+                    <h4>alt</h4>
+                </button>
+                <button id="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button id="ctrl2">
+                    <h4>ctrl</h4>
+                </button>
+                <button id="left">
+                    <i class="fa-solid fa-caret-left"></i>
+                </button>
+                <div class="up-down-arrow">
+                    <button id="up">
+                        <i class="fa-solid fa-caret-up"></i>
+                    </button>
+                    <button id="down">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </div>
+                <button id="right">
+                    <i class="fa-solid fa-caret-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
