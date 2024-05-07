@@ -410,6 +410,8 @@ const clickBtnDown  = (e) =>{
 
 
 
+inputBtn.addEventListener("keydown", clickBtnDown);
+inputBtn.addEventListener("keyup", clickBtnDown);
 body.addEventListener("keydown", clickBtnDown);
 body.addEventListener("keyup", clickBtnDown);
 
